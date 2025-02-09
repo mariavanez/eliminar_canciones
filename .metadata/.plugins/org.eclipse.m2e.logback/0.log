@@ -195,3 +195,71 @@
 2025-02-09 04:40:42,339 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-02-09 04:40:42,345 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-02-09 04:40:42,353 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 04:45:02,579 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 04:45:02,584 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-09 04:45:02,593 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 05:03:23,201 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@dd77629{STOPPING}[12.0.15,sto=0]
+2025-02-09 05:03:23,255 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@3f1b1865{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-02-09 14:06:25,851 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-02-09 14:14:43,856 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-09 14:14:43,947 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-09 14:14:43,965 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 14:19:19,502 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.15; built: 2024-11-05T19:44:57.623Z; git: 8281ae9740d4b4225e8166cc476bad237c70213a; jvm 21.0.5+11-LTS
+2025-02-09 14:19:19,806 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@538cd281{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@7562111d{STARTED}}
+2025-02-09 14:19:19,808 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-02-09 14:19:19,879 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@7036ff86{HTTP/1.1, (http/1.1)}{127.0.0.1:65413}
+2025-02-09 14:19:19,936 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@66137b40{STARTING}[12.0.15,sto=0] @891319ms
+2025-02-09 14:19:41,103 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-09 14:19:41,112 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-09 14:19:41,118 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 14:40:12,794 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-09 14:40:12,819 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-09 14:40:12,827 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 14:43:46,775 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-09 14:43:46,792 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-09 14:43:46,804 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 14:44:48,098 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 14:44:48,100 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 14:44:48,110 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 14:54:21,493 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 14:54:21,495 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 14:54:21,501 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 14:54:25,212 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-09 14:54:25,237 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-09 14:54:25,245 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 15:04:05,222 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:04:05,225 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:04:05,232 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 15:07:17,983 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:07:17,985 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:07:17,990 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 15:08:51,100 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:08:51,102 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:08:51,107 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 15:10:07,397 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:10:07,399 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:10:07,404 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 15:10:28,678 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:10:28,679 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:10:28,684 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 15:11:39,392 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:11:39,393 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:11:39,397 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 15:16:07,181 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:16:07,183 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:16:07,188 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 15:18:37,069 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-09 15:18:37,081 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-09 15:18:37,087 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 15:19:13,729 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:19:13,730 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:19:13,735 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 15:21:29,555 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:21:29,557 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-09 15:21:29,564 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 15:25:13,564 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-09 15:25:13,591 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-09 15:25:13,597 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-09 15:26:53,208 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-09 15:26:53,219 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-09 15:26:53,224 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources

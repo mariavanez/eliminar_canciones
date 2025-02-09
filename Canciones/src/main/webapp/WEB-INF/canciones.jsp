@@ -12,13 +12,13 @@
 	<main class="container">
 		<div class="row justify-content-center">
 			<div class="col-12 col-md-6">
-				<h1 class="text-center">Canciones</h1>
+				<h1 class="text-center">Lista de Canciones</h1>
 				<table class="table table-striped table-hover shadow-sm rounded">
 					<thead>
 						<tr>
 							<th>Titulo</th>
 							<th>Autor</th>
-							<th>Acciones</th>
+							<th>Detalles</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -33,6 +33,9 @@
 						</c:forEach>
 					</tbody>
 				</table>
+				<div class="text-center mt-4 mb-4">
+					<a href="/canciones/formulario/agregar" class="btn btn-success">Agregar una Canción</a>
+				</div>
 			</div>
 		</div>
 	</main>
