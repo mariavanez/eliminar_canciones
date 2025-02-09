@@ -1,0 +1,7 @@
+package com.maria.repositorios;
+
+@Repository
+public interface RepositorioCanciones extends CrudRepository<Cancion, Long> {
+
+	List<Cancion> findAll();
+}
