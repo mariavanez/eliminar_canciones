@@ -1,5 +1,7 @@
 package com.maria.controladores;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -8,6 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 
 import com.maria.modelos.Cancion;
 import com.maria.servicios.ServicioCanciones;
@@ -54,6 +57,32 @@ public class ControladorCanciones {
 		
 		serv.agregarCancion(cancion);
 		return "redirect:/canciones";
+	}
+	
+	@GetMapping("/canciones/formulario/editar/{id}")
+	public String formularioEditarCancion(@PathVariable("id") Long id,
+										  @ModelAttribute("cancion") Cancion cancion,
+										  Model model) {
+		
+		Cancion cancionEditada = serv.obtenerCancionPorId(id);
+		model.addAttribute("cancion", cancionEditada);
+		return "editarCancion.jsp";
+	}
+	
+	@PutMapping("/canciones/procesa/editar/{id}")
+	public String procesarEditarCancion(@Valid @ModelAttribute("cancion") Cancion cancionNueva,
+										BindingResult result,
+							            Model model) {
+		
+		if(result.hasErrors()) {
+			List<Cancion> cancionesPedidas = serv.obtenerTodasLasCanciones();
+			model.addAttribute("cancion", cancionesPedidas);
+			return "editarCancion.jsp";
+		} else {
+			serv.actualizaCancion(cancionNueva);
+			return "redirect:/canciones";
+		}
+		
 	}
 	
 }

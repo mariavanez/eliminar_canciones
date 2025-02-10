@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%><%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,8 +36,9 @@
 						</tr>
 					</tbody>
 				</table>
-				<div class="text-center mt-3 mb-3">
-					<a href="/canciones" class="btn btn-primary">Volver a Canciones</a>
+				<div class="d-flex justify-content-center align-items-center gap-3 mb-2">
+					<a href="/canciones/formulario/editar/${cancion.id}" class="btn btn-primary">Editar Canción</a>
+					<a href="/canciones" class="btn btn-outline-secondary">🔙 Volver a la lista de canciones</a>
 				</div>
 			</div>
 		</div>
