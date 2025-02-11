@@ -576,3 +576,23 @@
 2025-02-10 03:47:27,404 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
 2025-02-10 03:51:31,463 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@6c283f8c{STOPPING}[12.0.15,sto=0]
 2025-02-10 03:51:31,520 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@11d71722{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-02-10 20:41:06,340 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-02-10 20:42:15,535 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:42:15,600 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:42:15,617 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-10 20:42:42,119 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:42:42,129 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:42:42,136 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-10 20:43:15,583 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-10 20:43:15,585 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-10 20:43:15,592 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-10 20:44:39,870 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.15; built: 2024-11-05T19:44:57.623Z; git: 8281ae9740d4b4225e8166cc476bad237c70213a; jvm 21.0.5+11-LTS
+2025-02-10 20:44:39,978 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@998a01e{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@5557a67a{STARTED}}
+2025-02-10 20:44:39,979 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-02-10 20:44:40,021 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@5a768296{HTTP/1.1, (http/1.1)}{127.0.0.1:50248}
+2025-02-10 20:44:40,059 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@39ee8b89{STARTING}[12.0.15,sto=0] @330055ms
+2025-02-10 20:44:41,325 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:44:41,341 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:44:41,351 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\borge\Downloads\Cursos\Bootcamp Fullstack Java\JAVA\Coding Dojo - Core JAVA\Spring\Mostrar Canciones CORE\Canciones\src\test\resources
+2025-02-10 21:33:44,130 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@39ee8b89{STOPPING}[12.0.15,sto=0]
+2025-02-10 21:33:44,191 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@5a768296{HTTP/1.1, (http/1.1)}{127.0.0.1:0}

@@ -1,7 +1,5 @@
 package com.maria.controladores;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -75,8 +73,7 @@ public class ControladorCanciones {
 							            Model model) {
 		
 		if(result.hasErrors()) {
-			List<Cancion> cancionesPedidas = serv.obtenerTodasLasCanciones();
-			model.addAttribute("cancion", cancionesPedidas);
+			model.addAttribute("cancion", cancionNueva);
 			return "editarCancion.jsp";
 		} else {
 			serv.actualizaCancion(cancionNueva);
