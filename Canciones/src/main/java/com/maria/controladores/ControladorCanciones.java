@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -68,18 +69,23 @@ public class ControladorCanciones {
 	}
 	
 	@PutMapping("/canciones/procesa/editar/{id}")
-	public String procesarEditarCancion(@Valid @ModelAttribute("cancion") Cancion cancionNueva,
+	public String procesarEditarCancion(@Valid @ModelAttribute("cancion") Cancion cancionEditada,
 										BindingResult result,
 							            Model model) {
 		
 		if(result.hasErrors()) {
-			model.addAttribute("cancion", cancionNueva);
+			model.addAttribute("cancion", cancionEditada);
 			return "editarCancion.jsp";
 		} else {
-			serv.actualizaCancion(cancionNueva);
+			serv.actualizaCancion(cancionEditada);
 			return "redirect:/canciones";
 		}
 		
 	}
 	
+	@DeleteMapping("canciones/eliminar/{id}")
+	public String procesarEliminarCancion(@PathVariable("id") Long id) {
+		serv.eliminaCancion(id);
+		return "redirect:/canciones";
+	}
 }

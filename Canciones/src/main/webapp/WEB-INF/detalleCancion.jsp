@@ -36,10 +36,17 @@
 						</tr>
 					</tbody>
 				</table>
-				<div class="d-flex justify-content-center align-items-center gap-3 mb-2">
+				<div class="d-flex justify-content-center align-items-center gap-3 mb-3">
 					<a href="/canciones/formulario/editar/${cancion.id}" class="btn btn-primary">Editar Canción</a>
+					<form action="/canciones/eliminar/${cancion.id}" method="post" class="formEliminar" style="display:inline;">
+						<input type="hidden" name="_method" value="DELETE">
+						<button type="submit" class="btn btn-danger">Eliminar Canción</button>
+					</form>
+				</div>
+				<div class="d-flex justify-content-center align-items-center" >
 					<a href="/canciones" class="btn btn-outline-secondary">🔙 Volver a la lista de canciones</a>
 				</div>
+				
 			</div>
 		</div>
 	</main>

@@ -16,28 +16,28 @@
 				<h1 class="text-center mb-3">¡Agrega una nueva canción!</h1>
 				<form:form action="/canciones/procesa/agregar" method="post" modelAttribute="cancion" >
 					<div class="mb-3 shadow-sm">
-						<form:label path="titulo" for="titulo" class="form-label">Título:</form:label>
-						<form:input path="titulo" type="text" class="form-control"></form:input>
+						<form:label path="titulo" class="form-label">Título:</form:label>
+						<form:input path="titulo" placeholder="Ingresa un título..." class="form-control"></form:input>
 						<form:errors path="titulo" class="text-danger bg-light rounded p-1 d-block mt-1"></form:errors>
 					</div>
 					<div class="mb-3 shadow-sm">
-						<form:label path="artista" for="artista" class="form-label">Artista:</form:label>
-						<form:input path="artista" type="text"  class="form-control"></form:input>
+						<form:label path="artista" class="form-label">Artista:</form:label>
+						<form:input path="artista" placeholder="Ingresa un artista..." class="form-control"></form:input>
 						<form:errors path="artista" class="text-danger bg-light rounded p-1 d-block mt-1"></form:errors>
 					</div>
 					<div class="mb-3 shadow-sm">
-						<form:label path="album" for="album" class="form-label">Álbum:</form:label>
-						<form:input path="album" type="text" class="form-control"></form:input>
+						<form:label path="album" class="form-label">Álbum:</form:label>
+						<form:input path="album" placeholder="Ingresa un album..." class="form-control"></form:input>
 						<form:errors path="album" class="text-danger bg-light rounded p-1 d-block mt-1"></form:errors>
 					</div>
 					<div class="mb-3 shadow-sm">
-						<form:label path="genero" for="genero" class="form-label">Género:</form:label>
-						<form:input path="genero" type="text" class="form-control"></form:input>
+						<form:label path="genero" class="form-label">Género:</form:label>
+						<form:input path="genero" placeholder="Ingresa un género..." class="form-control"></form:input>
 						<form:errors path="genero" class="text-danger bg-light rounded p-1 d-block mt-1"></form:errors>
 					</div>
 					<div class="mb-3 shadow-sm">
-						<form:label path="idioma" for="idioma" class="form-label">Idioma:</form:label>
-						<form:input path="idioma" type="text" class="form-control"></form:input>
+						<form:label path="idioma"  class="form-label">Idioma:</form:label>
+						<form:input path="idioma" placeholder="Ingresa el idioma..."  class="form-control"></form:input>
 						<form:errors path="idioma" class="text-danger bg-light rounded p-1 d-block mt-1"></form:errors>
 					</div>
 					<div class="d-flex justify-content-center align-items-center gap-3 mb-2">

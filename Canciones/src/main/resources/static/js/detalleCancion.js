@@ -1,3 +1,6 @@
+
+//API de Itunes para las portadas:
+
 document.addEventListener("DOMContentLoaded", function() {
 	let titulo = document.getElementById("tituloCancion").textContent;
 	let artista = document.getElementById("artistaCancion").textContent;
@@ -13,4 +16,15 @@ document.addEventListener("DOMContentLoaded", function() {
 			}
 		})
 		.catch(error => console.log("Error al cargar la portada", error));
+		
+		//Confirmar la eliminación
+		const formsEliminar = document.querySelectorAll(".formEliminar");
+			formsEliminar.forEach(form => {
+				form.addEventListener("submit", function (event) {
+					const confirmar = confirm("¿Estás segur@ de querer eliminar esta canción?");
+					if(!confirmar) {
+						event.preventDefault();
+			}
+		})
+	})
 });
